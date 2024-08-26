@@ -55,12 +55,12 @@ q
 \right]
 $$
 
-&emsp;&emsp;现在向量 $\ket{{\psi}'}=\left[p,q\right]^T$ 仍然可能包含全局相位，设不包含全局相位的向量为 $\left[a,b\right]^T$ ，由于 $a$ 是实数，我们将 $\ket{{\psi}'}$ 上下同乘 $\frac{\overline{p}}{||p||}$ 后有：
+&emsp;&emsp;现在向量 $\ket{{\psi}'}=\left[p,q\right]^T$ 仍然可能包含全局相位，设不包含全局相位的向量为 $\left[a,b\right]^T$ ，由于 $a$ 是实数，我们将 $\ket{{\psi}'}$ 上下同乘 $\frac{\overline{p}}{\parallel p\parallel}$ 后有：
 
 $$
     \begin{cases}
-        a=||p|| \\
-        b=\frac{q\overline{p}}{||p||}{}
+        a=\parallel p\parallel \\
+        b=\frac{q\overline{p}}{\parallel p\parallel}{}
     \end{cases}
 $$
 
@@ -70,7 +70,7 @@ $$
     \begin{cases}
         n_x=a(b+\overline{b})=p\overline{q}+q\overline{p} \\
         n_y=-ia(b-\overline{b})=i(p\overline{q}-q\overline{p}) \\
-        n_z=2a^2-1=2||p||^2-1
+        n_z=2a^2-1=2\parallel p\parallel^2-1
     \end{cases}
 $$
 
